@@ -1,0 +1,209 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/CPU/CYHCPU/simulation/modelsim
+vcount5
+Z1 !s110 1732602023
+!i10b 1
+!s100 o>SdDiJz>A2OJ::Ba=PdQ0
+IR9Wc:oMH6V1Be[^`31OSo3
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1732203996
+8D:/CPU/CYHCPU/count5.v
+FD:/CPU/CYHCPU/count5.v
+L0 1
+Z3 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z4 !s108 1732602023.000000
+!s107 D:/CPU/CYHCPU/count5.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/CPU/CYHCPU|D:/CPU/CYHCPU/count5.v|
+!i113 1
+Z5 o-vlog01compat -work work
+Z6 !s92 -vlog01compat -work work +incdir+D:/CPU/CYHCPU
+Z7 tCvgOpt 0
+vCPU
+R1
+!i10b 1
+!s100 8aADOI^1jlK:9jQO@`H6B2
+ICa8LcflEW=]7DPd8GeXkR2
+R2
+R0
+w1732542471
+8D:/CPU/CYHCPU/CPU.v
+FD:/CPU/CYHCPU/CPU.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 D:/CPU/CYHCPU/CPU.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/CPU/CYHCPU|D:/CPU/CYHCPU/CPU.v|
+!i113 1
+R5
+R6
+R7
+n@c@p@u
+vdec3to8
+R1
+!i10b 1
+!s100 X@`74Q:KAP<bFEXH@Qo^V1
+I_R?2;Cnm;^PmjhFNe4z]>2
+R2
+R0
+Z8 w1732541925
+Z9 8D:/CPU/CYHCPU/proc.v
+Z10 FD:/CPU/CYHCPU/proc.v
+L0 316
+R3
+r1
+!s85 0
+31
+R4
+Z11 !s107 D:/CPU/CYHCPU/proc.v|
+Z12 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/CPU/CYHCPU|D:/CPU/CYHCPU/proc.v|
+!i113 1
+R5
+R6
+R7
+vhex7_seg
+R1
+!i10b 1
+!s100 ?8YKahFAc;I3Q29Q[1X4=3
+IHFN_Q<SV1aK>F8FYzaL;k0
+R2
+R0
+w1732596212
+8D:/CPU/CYHCPU/hex7_seg.v
+FD:/CPU/CYHCPU/hex7_seg.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 D:/CPU/CYHCPU/hex7_seg.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/CPU/CYHCPU|D:/CPU/CYHCPU/hex7_seg.v|
+!i113 1
+R5
+R6
+R7
+vhex7seg
+R1
+!i10b 1
+!s100 n^j_C8:FFzA6L022NVY?21
+InzJn>N]5^Ji^S@az1Mn9D1
+R2
+R0
+w1732203926
+8D:/CPU/CYHCPU/hex7seg.v
+FD:/CPU/CYHCPU/hex7seg.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 D:/CPU/CYHCPU/hex7seg.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/CPU/CYHCPU|D:/CPU/CYHCPU/hex7seg.v|
+!i113 1
+R5
+R6
+R7
+vint_memten
+R1
+!i10b 1
+!s100 8c4JR]g12Zo4Jd1d>3CBg0
+I]Nb63N^:GMEaQNHWF]4ED2
+R2
+R0
+w1732596169
+8D:/CPU/CYHCPU/int_memten.v
+FD:/CPU/CYHCPU/int_memten.v
+L0 39
+R3
+r1
+!s85 0
+31
+R4
+!s107 D:/CPU/CYHCPU/int_memten.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/CPU/CYHCPU|D:/CPU/CYHCPU/int_memten.v|
+!i113 1
+R5
+R6
+R7
+vkey_anti_shake
+R1
+!i10b 1
+!s100 VfY_K3:?Babn]BMC74n6E3
+IN]7gJM7hgme6Pia4iQVc82
+R2
+R0
+w1732203962
+8D:/CPU/CYHCPU/key_anti_shake.v
+FD:/CPU/CYHCPU/key_anti_shake.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 D:/CPU/CYHCPU/key_anti_shake.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/CPU/CYHCPU|D:/CPU/CYHCPU/key_anti_shake.v|
+!i113 1
+R5
+R6
+R7
+vproc
+R1
+!i10b 1
+!s100 1<@;UFlI8l<fdzm3PG^:d1
+Idige=ki23J7T9CY;gJ0160
+R2
+R0
+R8
+R9
+R10
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+R11
+R12
+!i113 1
+R5
+R6
+R7
+vregn
+R1
+!i10b 1
+!s100 UIRBW5zYfk:1CH1KPzB9f3
+IQRgVb10bB1<RHLX2?1h`H3
+R2
+R0
+R8
+R9
+R10
+L0 338
+R3
+r1
+!s85 0
+31
+R4
+R11
+R12
+!i113 1
+R5
+R6
+R7

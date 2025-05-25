@@ -1,0 +1,35 @@
+module CPU (KEY, SW, LEDR,CLOCK_50M,HEX0,HEX1,HEX2,HEX3,HEX4,HEX5,HEX6,HEX7);
+input [1:0] KEY;
+input [1:0] SW;
+input CLOCK_50M;
+output [10:0] LEDR;
+output [6:0] HEX0,HEX1,HEX2,HEX3,HEX4,HEX5,HEX6,HEX7;
+wire Done,Resetn,PClock,MClock,Run;
+wire [9:0] DIN, Bus, R0, R1, R2;
+wire [4:0] pc;
+wire key_flag0;
+wire key_flag1;
+wire [6:0]HEX0,HEX1,HEX2,HEX4,HEX5,HEX6,HEX7;
+hex7seg HEX_0(R0[3:0],HEX0);
+hex7seg HEX_1(R0[7:4],HEX1);
+hex7seg HEX_2({2'b00,R0[9:8]},HEX2);
+hex7seg HEX_3(DIN[9:6],HEX3);
+hex7seg HEX_4(R1[3:0],HEX4);
+hex7seg HEX_5(R1[7:4],HEX5);
+hex7seg HEX_6(R2[3:0],HEX6);
+hex7seg HEX_7(R2[7:4],HEX7);
+
+key_anti_shake U1(CLOCK_50M,Resetn,KEY[1],key_flag1);
+key_anti_shake U2(CLOCK_50M,Resetn,KEY[0],key_flag0);
+assign MClock = key_flag0;
+assign PClock = key_flag1;
+//assign MClock = KEY[0];
+//assign PClock = KEY[1];
+assign Run = SW[1];
+assign Resetn = SW[0];
+assign LEDR[9:0] = Bus;
+assign LEDR[10] = Done;
+proc U3 (DIN, Resetn, PClock, Run, Done, Bus, R0, R1, R2);
+int_memten U4 (pc, MClock, DIN);
+count5 U5 (Resetn, MClock, pc);
+endmodule

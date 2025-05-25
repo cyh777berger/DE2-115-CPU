@@ -1,0 +1,89 @@
+------------------------------------------------------------
+Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow 1200mV 85C Model Setup 'flipflop:U1|Q'
+Slack : -50.479
+TNS   : -1906.162
+
+Type  : Slow 1200mV 85C Model Setup 'flipflop:U2|Q'
+Slack : -0.838
+TNS   : -2.977
+
+Type  : Slow 1200mV 85C Model Hold 'flipflop:U2|Q'
+Slack : 0.409
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'flipflop:U1|Q'
+Slack : 0.845
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'flipflop:U1|Q'
+Slack : -3.000
+TNS   : -279.290
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'CLOCK_50M'
+Slack : -3.000
+TNS   : -5.570
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'flipflop:U2|Q'
+Slack : -2.693
+TNS   : -9.118
+
+Type  : Slow 1200mV 0C Model Setup 'flipflop:U1|Q'
+Slack : -45.618
+TNS   : -1731.503
+
+Type  : Slow 1200mV 0C Model Setup 'flipflop:U2|Q'
+Slack : -0.675
+TNS   : -2.242
+
+Type  : Slow 1200mV 0C Model Hold 'flipflop:U2|Q'
+Slack : 0.367
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'flipflop:U1|Q'
+Slack : 0.767
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'flipflop:U1|Q'
+Slack : -3.000
+TNS   : -279.290
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'CLOCK_50M'
+Slack : -3.000
+TNS   : -5.570
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'flipflop:U2|Q'
+Slack : -2.649
+TNS   : -9.074
+
+Type  : Fast 1200mV 0C Model Setup 'flipflop:U1|Q'
+Slack : -24.163
+TNS   : -844.904
+
+Type  : Fast 1200mV 0C Model Setup 'flipflop:U2|Q'
+Slack : 0.062
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'flipflop:U2|Q'
+Slack : 0.190
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'flipflop:U1|Q'
+Slack : 0.380
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'CLOCK_50M'
+Slack : -3.000
+TNS   : -5.124
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'flipflop:U1|Q'
+Slack : -1.000
+TNS   : -204.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'flipflop:U2|Q'
+Slack : -1.000
+TNS   : -6.000
+
+------------------------------------------------------------

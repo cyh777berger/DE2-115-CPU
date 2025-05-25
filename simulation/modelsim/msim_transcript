@@ -1,0 +1,91 @@
+# Reading D:/quartus18/modelsim_ase/tcl/vsim/pref.tcl
+# do CPU_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap work rtl_work 
+# Copying D:/quartus18/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vlog -vlog01compat -work work +incdir+D:/CPU/CYHCPU {D:/CPU/CYHCPU/CPU.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 14:20:23 on Nov 26,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/CPU/CYHCPU" D:/CPU/CYHCPU/CPU.v 
+# -- Compiling module CPU
+# 
+# Top level modules:
+# 	CPU
+# End time: 14:20:23 on Nov 26,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+D:/CPU/CYHCPU {D:/CPU/CYHCPU/proc.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 14:20:23 on Nov 26,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/CPU/CYHCPU" D:/CPU/CYHCPU/proc.v 
+# -- Compiling module proc
+# -- Compiling module dec3to8
+# -- Compiling module regn
+# 
+# Top level modules:
+# 	proc
+# End time: 14:20:23 on Nov 26,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+D:/CPU/CYHCPU {D:/CPU/CYHCPU/hex7_seg.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 14:20:23 on Nov 26,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/CPU/CYHCPU" D:/CPU/CYHCPU/hex7_seg.v 
+# -- Compiling module hex7_seg
+# 
+# Top level modules:
+# 	hex7_seg
+# End time: 14:20:23 on Nov 26,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+D:/CPU/CYHCPU {D:/CPU/CYHCPU/key_anti_shake.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 14:20:23 on Nov 26,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/CPU/CYHCPU" D:/CPU/CYHCPU/key_anti_shake.v 
+# -- Compiling module key_anti_shake
+# 
+# Top level modules:
+# 	key_anti_shake
+# End time: 14:20:23 on Nov 26,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+D:/CPU/CYHCPU {D:/CPU/CYHCPU/int_memten.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 14:20:23 on Nov 26,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/CPU/CYHCPU" D:/CPU/CYHCPU/int_memten.v 
+# -- Compiling module int_memten
+# 
+# Top level modules:
+# 	int_memten
+# End time: 14:20:23 on Nov 26,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+D:/CPU/CYHCPU {D:/CPU/CYHCPU/count5.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 14:20:23 on Nov 26,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/CPU/CYHCPU" D:/CPU/CYHCPU/count5.v 
+# -- Compiling module count5
+# 
+# Top level modules:
+# 	count5
+# End time: 14:20:23 on Nov 26,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+D:/CPU/CYHCPU {D:/CPU/CYHCPU/hex7seg.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 14:20:23 on Nov 26,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/CPU/CYHCPU" D:/CPU/CYHCPU/hex7seg.v 
+# -- Compiling module hex7seg
+# 
+# Top level modules:
+# 	hex7seg
+# End time: 14:20:23 on Nov 26,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+vsim work.count5
+# vsim work.count5 
+# Start time: 14:20:29 on Nov 26,2024
+# Loading work.count5
+# End time: 14:20:40 on Nov 26,2024, Elapsed time: 0:00:11
+# Errors: 0, Warnings: 0
